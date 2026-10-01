@@ -16,4 +16,7 @@ public class array {
             }
         }
     }
+
+    public static class demop {
+    }
 }
