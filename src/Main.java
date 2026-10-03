@@ -1,15 +1,24 @@
-import bank.Account;
-import bank.SavingsAccount;
+import Company.Devloper;
+import Company.Employee;
 
 public class Main {
     public static void main(String[] args) {
 
-        Account a1 = new SavingsAccount(101, "Ayush", 5000);
+        Employee e1 = new Devloper(
+                101,
+                "Ayush",
+                40000,
+                "Java"
+        );
 
-        a1.deposit(1000);
+        e1.display();
 
-        a1.withdraw(3000);
+        System.out.println();
 
-        a1.withdraw(2500);
+        e1.work();
+
+        System.out.println();
+
+        System.out.println(e1);
     }
 }
