@@ -1,4 +1,4 @@
-import Company.Devloper;
+/*import Company.Devloper;
 import Company.Employee;
 
 public class Main {
@@ -20,5 +20,15 @@ public class Main {
         System.out.println();
 
         System.out.println(e1);
+    }
+}*/
+import routine.Routine;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Routine r = new Routine();
+        r.showRoutine();
+
     }
 }
